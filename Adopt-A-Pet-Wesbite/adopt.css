@@ -1,0 +1,190 @@
+HTML, body 
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Comfortaa;
+  background: #203864;
+}
+
+/*
+Color scheme
+
+#80FFD0 (aqua)
+#EFFF80 (yellow)
+#FF80AF (pink)
+#E1FFF1 (white)
+
+*/
+
+.navbar
+{
+  z-index: 2;
+  display: flex;
+  background-color: rgba(32, 56, 100, 0.5);
+  position: sticky;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  transition: background-color 0.2s;
+}
+
+.navbar:hover
+{
+  background-color: rgba(32, 56, 100, 1);
+}
+
+.navbar a
+{
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  display: block;
+  color: #FF80AF;
+  text-align: center;
+  padding: 2em 5em;
+  text-decoration:none;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.navbar a:hover{
+  background-color: #FF80AF;
+  color: #203864;
+}
+
+.navbar a.active{
+  background-color: #FF80AF;
+  color: #203864;
+}
+
+#login
+{
+  margin: left;
+  left: 85%;
+  position: absolute;
+  background-color: #EFFF80;
+  font-family: Comfortaa;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #203864;
+  border: 0px;
+  border-radius: 40px;
+  padding: 15px 60px;
+}
+
+#logo
+{
+  position: absolute;
+  right: 85%;
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  
+}
+
+#logo:hover
+{
+  cursor: pointer;
+}
+
+button:hover
+{
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(32, 56, 100, 0.5);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #EFFF80; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #80FFD0;
+}
+
+/* -------------------------- */
+
+#picture
+{
+  height: 200px;
+  width: 200px;
+  background-color: #FF80AF;
+  background-image: url(".jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+#list
+{
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 30vw;
+  max-height: 60vw;
+  margin-top: 10px;
+  margin-left: 85px;
+  overflow: auto;
+}
+
+#listitem
+{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+#name
+{
+  text-align: left;
+  font-family: Conformity;
+  letter-spacing: 0.1em;
+  font-size: 40px;
+  color: #FF80AF;
+}
+
+#field
+{
+  text-align: left;
+  font-family: Comfortaa;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  color: #E1FFF1;
+}
+
+#age
+{
+  tect-align: left;
+  font-family: Conformitaa;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  colour: #E1FFF1;
+}
+
+#book
+{
+  background-color: #80FFD0;
+  font-family: Comfortaa;
+  font-weight: 600;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #203864;
+  border: 0px;
+  border-radius: 40px;
+  padding: 10px 30px;
+}
+
